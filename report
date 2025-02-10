@@ -1,0 +1,5 @@
+1. Get CSRF 
+  Вошел в аккаунт testuser1, нажал на add admin, написал ник и пароль нажал кнопку add user, зашел в консоль разработчика, нашел запрос который это делает "http://92.63.179.34/add_admin?username=zxcsf&password=228&isAdmin=yes&submit=Add+User",
+  после в messages отправил следующее сообщение: <img src='http://92.63.179.34/add_admin?username=zxcsf&password=228&isAdmin=yes&submit=Add+User' /> и зашел под этим юзером с админом и получил флаг. "NOW_YOU_KNOW_GET_CSRF"
+2. Post CSRF
+  Создал форму, которую сделал в отдельном HTML-файле, она содержала скрытые поля, имитирующие параметры запроса, которые сервер ждал от пользователя. Загрузил, и зайдя за админа получил флаг: "DID_YOU_LIKE_POST_CSRF"
